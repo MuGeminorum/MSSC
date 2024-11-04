@@ -15,7 +15,7 @@ python Classification.py
 python Segmentation.py
 ```
 
-# Chapter IV ‐ Medical Signal Segmentation and Classification
+# Chapter IV - Medical Signal Segmentation and Classification
 Welcome to the Medical Signal Segmentation and Classification (MSSC) wiki!
 
 The project is dedicated to the segmentation and classification of medical imaging signals including boundary detection filters, Kmeans clustering algorithms, support vector machines (SVM) and other methods. The dataset uses MRI data of size 157 x 189 x 68.
@@ -98,7 +98,7 @@ d)	Calculate the standard measurement function. If the method reaches the maximu
 <div align=center>
 <img width="605" src="https://user-images.githubusercontent.com/20459298/233115171-01852440-e872-4e67-83a5-fd58b42ed7c5.png"/><br>
 <b>Figure 5: Process of K-means clustering</b>
-</div>
+</div><br>
 
 <div align=center><b>Table 1: Differences between supervised and unsupervised methods</b><br></div>
 
