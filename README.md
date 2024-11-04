@@ -22,18 +22,18 @@ _Figure 1_ shows the demonstration of 3D segmentation results achieved using thr
 <div align=center>    
     <img width="100%" src="https://user-images.githubusercontent.com/20459298/233113218-15beccc4-0f79-4cea-a283-9e3956de3ee2.png"/><br>
     <b>Figure 1: 3D segmentation result of the tumor</b>
-</div>
+</div><br>
 
 _Table 2_ shows the demonstration of the experiments on different global and local parameter combinations. 
 
 <div align=center>
     <b>Table 2: Part experiments on different global and local parameters</b><br>
     <img width="455" src="https://user-images.githubusercontent.com/20459298/233113328-43869ae5-f62f-42bd-9808-a836d714089a.PNG"/>
-</div>
+</div><br>
 
 Based on experiment results, the best global and local parameters are among experiments with ID from 2 to 3 considering whether the classification is true or false, positive or negative. The best way to find them is to define an indicator of the best result, then define a distance between the result indicator in current parameters and the best outcome, and finally search for the settings of minimum distance by deep learning. In that way, we do not need to search for the best parameters manually. 
 
-# Chapter I ‐ Medical image computing
+# Chapter I - Medical image computing
 Welcome to the MIC wiki!
 
 Medical image computing (MIC) is an interdisciplinary field, there are three essential medical image analysis techniques: medical image enhancement (MIE) and medical image segmentation (MIS).
@@ -46,7 +46,7 @@ Medical image computing (MIC) is an interdisciplinary field at the intersection 
 ## Downloads
 3D Slicer download at <https://download.slicer.org>
 
-Sample data download at <https://github.com/MuGemSt/Medical_Image_Computing/releases/tag/v1.1>
+Sample data download at <https://github.com/MuGemSt/Medical_Image_Computing/releases/tag/nrrd>
 
 ## Usage
 ### MIE
