@@ -101,9 +101,11 @@ Learning rate: according to our experiment, the large learning will study fast i
 In conclusion, we finish the dataset establishing process, model establishing process and model training and evaluating process. We finally received a test accuracy of 92% using the following parameters:
 
 <div align=center><b>Table 2: Experiment parameters</b><br>
+
 | Parameter | epoch | iteration | batch_size |
 | :-------: | :---: | :-------: | :--------: |
 |   Value   |  40   |    10     |     4      |
+
 </div>
 
 ### Future work
