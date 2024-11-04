@@ -85,7 +85,7 @@ The human epithelial 2 (HEp-2) cells are epithelial cells of carcinoma of the la
 <div align=center>
 <img width="605" src="https://user-images.githubusercontent.com/20459298/233107373-c7518fcd-2fae-4e6d-9979-1679345df4cd.png"/><br>
 <b>Figure 1: HEp-2 example cell images of ICPR2014 dataset</b>
-</div>
+</div><br>
 
 Efficient image classification of HEp-2 cells can facilitate the diagnosis of many autoimmune diseases. That is why we make a classification for HEp-2 cells. However, image classification is a heavy workload and requires high accuracy. Manual search is unrealistic; traditional image segmentation algorithms are not enough to meet the demand. Therefore, the use of a deep CNN-based image segmentation algorithm is more appropriate.
 
