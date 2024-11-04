@@ -1,0 +1,6 @@
+__pycache__/*
+model/*
+test/*
+.vscode/*
+logs/*
+rename.sh
