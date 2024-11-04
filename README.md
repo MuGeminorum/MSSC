@@ -16,7 +16,7 @@ pip install -r requirements.txt
 python svm.py
 ```
 
-# Chapter II ‐ Classifying AD patients and normal controls from brain images
+# Chapter II - Classifying AD patients and normal controls from brain images
 Welcome to the AD-prediction wiki!
 
 This project is for AD prediction. Predict whether each of the 10 subjects in the test is an AD patient or not. This includes extracting the feature representation from each subject's MR brain image and classifying these feature vectors using Support Vector Machines.
@@ -54,7 +54,7 @@ AD stands for Alzheimer's disease. It is a progressive, irreversible brain disor
 <div align=center>
 <img width="605" src="https://user-images.githubusercontent.com/20459298/233102345-9b89a2bb-e91f-42cc-9164-ef4de7383b2d.png"/><br>
 <b>Figure 1: Comparison between normal brain and brain affected by AD</b>
-</div>
+</div><br>
 
 Brain image processing performs some operations on a brain image to get an enhanced image or to extract some useful information from it. Most common operations in brain image processing are brain extraction, brain image alignment, brain parcellation and brain tissue segmentation. In this project, brain image processing plays a role of pre-processing for the forward image classification.
 
@@ -178,7 +178,7 @@ After this extraction process, we can receive the brain image. However, some res
 <div align=center>
 <img width="605" src="https://user-images.githubusercontent.com/20459298/233103048-c6858ffb-caf5-46ac-b8e5-7868ee0d3c1b.png"/><br>
 <b>Figure 3: Initial extracted brain and head</b>
-</div>
+</div><br>
 
 This extraction result is not satisfied enough; this is because of the incorrect setting of the centre position of the brain. Therefore, we need to figure this issue out, and we tried two different strategies: 
 
@@ -190,7 +190,7 @@ We tried these two methods together and made the skull stripping results more ac
 <div align=center>
 <img width="605" src="https://user-images.githubusercontent.com/20459298/233103164-74f08d68-e67b-4087-b29e-c0ff2ce3e27d.png"/><br>
 <b>Figure 4: Contrast of initial result (green) and improved result (red)</b>
-</div>
+</div><br>
 
 Besides, we run a similar code to finish the skull stripping process of testing data. Then we use the shell file mentioned improving the stripping results. Overall, we finish the first step of skull stripping.
 
@@ -255,7 +255,7 @@ Then we use Fsleyes to see the segmentation result, which shows as follow:
 <div align=center>
 <img width="605" src="https://user-images.githubusercontent.com/20459298/233103286-f633a43d-69c8-4ecc-b1db-d4f8e134bb01.png"/><br>
 <b>Figure 5: Segmented Grey matter (yellow)</b>
-</div>
+</div><br>
 
 Also, we run a similar code to finish the grey matter segmentation process of testing data. Overall, we finished the second step of the grey matter segmentation.
 
@@ -358,7 +358,7 @@ After these four steps, we can receive the transformed AAL atlas overlaid on eac
 <div align=center>
 <img width="605" src="https://user-images.githubusercontent.com/20459298/233103361-a0b26b11-79d3-475c-ac7a-64765a5508ab.png"/><br>
 <b>Figure 6: Transformed AAL atlas example</b>
-</div>
+</div><br>
 
 Besides, we do a quite similar operation to the test dataset. Overall, we received 50 transformed AAL atlas during this step.
 
@@ -462,7 +462,7 @@ After this code, we can receive one CSV file. In this CSV file, each of 40 train
 <div align=center>
 <img width="100%" src="https://user-images.githubusercontent.com/20459298/233103429-3c7c976a-6e7c-42f6-af2b-2c676b5d7875.png"/><br>
 <b>Figure 7: The output CSV file</b>
-</div>
+</div><br>
 
 The exact name, voxel and label information shows in the appendix CSV file. It concludes the information of both training and testing datasets. Overall, we generated the required CSV file in this section, which is to finish the final SVM section.
 
