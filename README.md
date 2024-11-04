@@ -6,8 +6,8 @@ Classifying AD patients and normal controls from brain images
 
 ## Requirements
 ```bash
-echo y | conda create -n svm
-conda activate svm
+echo y | conda create -n ad
+conda activate ad
 pip install -r requirements.txt
 ```
 
@@ -31,13 +31,14 @@ This is a group-work based project.
 There are 40 subjects (being either AD patients or normal controls) in the training set and 10 subjects in the test set. The T1-weighted MR brain images for all subjects are provided. In addition, the template images, and the brain AAL atlas could be found under the “Packages” directory.
 
 ## Tasks
-Predict whether each of the 10 subjects in the test is an AD patient or not. This includes extracting the feature representation from each subject’s MR brain image and classifying these feature vectors using Support Vector Machines.  
+Predict whether each of the 10 subjects in the test is an AD patient or not. This includes extracting the feature representation from each subject’s MR brain image and classifying these feature vectors using Support Vector Machines.
+
 For feature extraction, students have practiced how to measure the grey matter volume in a single ROI in Lab 1. Now you need to extend the measurement to the first 90 ROIs in AAL atlas for each subject. Therefore, you may do this by using unix shell programming to process these data in batch. A very simple tutorial about unix shell programming is provided in Canvas. Please follow the links in that document for further reading if you need.  The feature extraction process includes four sub-tasks: skullstripping, tissue segmentation (for grey matter), registration, and measurement. To make the tasks easier, we have provided templates of shell scripts to conduct these four sub-tasks, with main steps removed. Please complete those shell scripts for your tasks. It is worth noting that, in those templates, the files are assumed to be organized in a specific directory structure. Be careful to change the directories in the code if you want to use a different directory structure.
 
 <div align=center>    
     <img width="50%" src="https://user-images.githubusercontent.com/20459298/233102075-16faff15-afa4-4a2f-b47a-0441d76ac156.PNG"/><br>
     <b>Figure 1: Folder Arrangement</b>
-</div>
+</div><br>
 
 After feature extraction, each subject is represented by a 90-D feature vector. Please use Support Vector Machine for the classification. You may find the components in the feature vectors have large values and they change largely from feature to feature. You can conduct feature normalization before you apply SVM. For example, you can normalize each feature (across all training samples) to have a zero mean and a unit standard deviation. This may help your classification.
 
@@ -459,7 +460,7 @@ done
 After this code, we can receive one CSV file. In this CSV file, each of 40 training datasets has one name value, 90 voxel value and one label value. Meanwhile, each of 10 testing datasets has one name value, 90 voxel value without label value. There are some parts of the CSV file shown as follow:
 
 <div align=center>
-<img width="80%" src="https://user-images.githubusercontent.com/20459298/233103429-3c7c976a-6e7c-42f6-af2b-2c676b5d7875.png"/><br>
+<img width="100%" src="https://user-images.githubusercontent.com/20459298/233103429-3c7c976a-6e7c-42f6-af2b-2c676b5d7875.png"/><br>
 <b>Figure 7: The output CSV file</b>
 </div>
 
