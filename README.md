@@ -37,7 +37,7 @@ It will automatically find the latest log to plot.
 | :--------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------: |
 |                                                        **Loss curve**                                                        |                                             **Training and validation accuracy**                                             |
 
-# Chapter III ‐ Classifying Cell Images Using Deep Learning Models
+# Chapter III - Classifying Cell Images Using Deep Learning Models
 Welcome to the HEp-2_cell_classification wiki!
 
 This project is to exercise how to use deep CNN models to classify cell images. Efficient Human Epithelial-2 (HEp-2) cell image classification can facilitate the diagnosis of many autoimmune diseases.
@@ -147,7 +147,7 @@ The CNN stands for the convolutional neural network, which is a kind of feedforw
 <div align=center>
 <img width="605" src="https://user-images.githubusercontent.com/20459298/233107716-956f513f-f866-4160-bf12-d8f7523451c3.png"/><br>
 <b>Figure 2: The architecture of original CNN</b>
-</div>
+</div><br>
 
 The training steps of CNN model are as below:
 1)	Input the training data into the model;
@@ -172,7 +172,7 @@ AlexNet took part in the ImageNet Large-Scale Visual Recognition Challenge on 30
 <div align=center>
 <img width="605" src="https://user-images.githubusercontent.com/20459298/233107927-487cb63c-4895-44b8-9007-bda42ae1c661.png"/><br>
 <b>Figure 4: The structure of the AlexNet</b>
-</div>
+</div><br>
 
 The steps to finetune the pre-trained AlexNet on Pytorch are as follow: 
 
@@ -194,7 +194,7 @@ Data augmentation is like an image pre-processing in the training phase. When ou
 <div align=center>
 <img width="605" src="https://user-images.githubusercontent.com/20459298/233108002-d4be2fe8-8bea-4e62-a1f8-c6accd52b3d0.png"/><br>
 <b>Figure 5: All kinds of data augmentation methods</b>
-</div>
+</div><br>
 
 But we need to pay attention to maintaining the correctness of the answer when performing data augmentation, or our model would learn the wrong knowledge.
 
@@ -413,7 +413,7 @@ Then we can receive the loss curve and show it in the following picture:
 <div align=center>
 <img width="605" src="https://user-images.githubusercontent.com/20459298/233108330-9b671a37-c4c7-409f-a305-9a58e3b58a87.png"/><br>
 <b>Figure 6: Loss curve</b>
-</div>
+</div><br>
 
 Although the loss is fluctuating during the whole process, the main trend of this curve is in decreasing.
 
@@ -422,7 +422,7 @@ Then we plot the accuracy curve of training and validation data loader, which is
 <div align=center>
 <img width="605" src="https://user-images.githubusercontent.com/20459298/233108425-a9268ec2-1334-4643-acc8-bf81e4099003.png"/><br>
 <b>Figure 7: Training and validation accuracy</b>
-</div>
+</div><br>
 
 We can find that the training and validation accuracy are increasing at beginning and levelling off after about 20 epochs. In addition, the accuracy curve of training and validation dataset are separated at about 20 epochs, this is because of the influence of overfitting.
 
