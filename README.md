@@ -1,6 +1,5 @@
 # MSSC
 [![license](https://img.shields.io/github/license/MuGemSt/Medical_Image_Computing.svg)](https://github.com/MuGemSt/Medical_Image_Computing/blob/master/LICENSE)
-[![Python application](https://github.com/MuGemSt/Medical_Image_Computing/actions/workflows/python-app.yml/badge.svg?branch=mssc)](https://github.com/MuGemSt/Medical_Image_Computing/actions/workflows/python-app.yml)
 
 Medical Signal Segmentation and Classification
 
