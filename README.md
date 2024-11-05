@@ -1,16 +1,14 @@
 # AlexNet-HEp2-Classification
 [![license](https://img.shields.io/github/license/MuGemSt/Medical_Image_Computing.svg)](https://github.com/MuGemSt/Medical_Image_Computing/blob/master/LICENSE)
-[![Python application](https://github.com/MuGemSt/Medical_Image_Computing/actions/workflows/python-app.yml/badge.svg?branch=hep2)](https://github.com/MuGemSt/Medical_Image_Computing/actions/workflows/python-app.yml)
-[![](https://img.shields.io/badge/HF-HEp2-ffd21e.svg)](https://huggingface.co/spaces/MuGemSt/HEp2)
-[![](https://img.shields.io/badge/ModelScope-HEp2-624aff.svg)](https://www.modelscope.cn/studios/MuGemSt/HEp2)
+[![hf](https://img.shields.io/badge/HF-HEp2-ffd21e.svg)](https://huggingface.co/spaces/MuGemSt/HEp2)
+[![ms](https://img.shields.io/badge/ModelScope-HEp2-624aff.svg)](https://www.modelscope.cn/studios/MuGemSt/HEp2)
 
 Classifying Cell Images Using Deep Learning Models
 
 ## Requirements
 ```bash
-conda create -n hep2 python=3.9
-conda activate hep2
-echo y | conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+conda create -n py311 python=3.11 -y
+conda activate py311
 pip install -r requirements.txt
 ```
 
