@@ -1,6 +1,5 @@
 # AD-Prediction
 [![license](https://img.shields.io/github/license/MuGemSt/Medical_Image_Computing.svg)](https://github.com/MuGemSt/Medical_Image_Computing/blob/master/LICENSE)
-[![Python application](https://github.com/MuGemSt/Medical_Image_Computing/actions/workflows/python-app.yml/badge.svg?branch=ad)](https://github.com/MuGemSt/Medical_Image_Computing/actions/workflows/python-app.yml)
 
 Classifying AD patients and normal controls from brain images
 
