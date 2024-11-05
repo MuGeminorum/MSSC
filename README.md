@@ -3,6 +3,13 @@
 
 Medical Signal Segmentation and Classification
 
+## Environment
+```bash
+conda create -n py311 python=3.11 -y
+conda activate py311
+pip install -r requirements.txt
+```
+
 ## Usage
 ### Classification
 ```bash
