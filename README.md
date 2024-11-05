@@ -5,8 +5,8 @@ Classifying AD patients and normal controls from brain images
 
 ## Requirements
 ```bash
-echo y | conda create -n ad
-conda activate ad
+conda create -n py311 python=3.11 -y
+conda activate py311
 pip install -r requirements.txt
 ```
 
