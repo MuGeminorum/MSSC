@@ -1,7 +1,7 @@
 # AlexNet-HEp2-Classification
 [![license](https://img.shields.io/github/license/MuGemSt/Medical-Image-Computing.svg)](https://github.com/MuGemSt/Medical-Image-Computing/blob/master/LICENSE)
-[![hf](https://img.shields.io/badge/HF-HEp2-ffd21e.svg)](https://huggingface.co/spaces/MuGemSt/HEp2)
-[![ms](https://img.shields.io/badge/ModelScope-HEp2-624aff.svg)](https://www.modelscope.cn/studios/MuGemSt/HEp2)
+[![hf](https://img.shields.io/badge/HF-HEp2-ffd21e.svg)](https://huggingface.co/spaces/Genius-Society/HEp2)
+[![ms](https://img.shields.io/badge/ModelScope-HEp2-624aff.svg)](https://www.modelscope.cn/studios/Genius-Society/HEp2)
 
 Classifying Cell Images Using Deep Learning Models
 
