@@ -87,12 +87,12 @@ def transform(example_batch):
 def prepare_data():
     print("Preparing data...")
     try:
-        ds = load_dataset("MuGemSt/HEp2")
+        ds = load_dataset("Genius-Society/HEp2")
         trainset = ds["train"].with_transform(transform)
         validset = ds["validation"].with_transform(transform)
         testset = ds["test"].with_transform(transform)
     except ConnectionError:
-        ds = MsDataset.load("MuGemSt/HEp2", subset_name="default")
+        ds = MsDataset.load("Genius-Society/HEp2", subset_name="default")
         trainset = ds["train"]._hf_ds.with_transform(transform)
         validset = ds["validation"]._hf_ds.with_transform(transform)
         testset = ds["test"]._hf_ds.with_transform(transform)
