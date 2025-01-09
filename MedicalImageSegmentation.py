@@ -207,7 +207,7 @@ class MedicalImageSegmentation:
         parent.title = "Task B - MIS"
         parent.categories = ["Assignment"]
         parent.dependencies = []
-        parent.contributors = ["MuGemSt"]
+        parent.contributors = ["Genius-Society"]
         parent.helpText = """
     Task B. Medical Image Segmentation
     """

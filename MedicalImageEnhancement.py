@@ -111,7 +111,7 @@ class MedicalImageEnhancement:
         parent.title = "Task A - MIE"
         parent.categories = ["Assignment"]
         parent.dependencies = []
-        parent.contributors = ["MuGemSt"]
+        parent.contributors = ["Genius-Society"]
         parent.helpText = """
     Task A. Medical Image Enhancement
     """
