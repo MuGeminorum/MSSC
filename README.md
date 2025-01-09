@@ -1,5 +1,5 @@
 # MSSC
-[![license](https://img.shields.io/github/license/MuGemSt/Medical-Image-Computing.svg)](https://github.com/MuGemSt/Medical-Image-Computing/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/Genius-Society/medical_image_computing.svg)](https://github.com/Genius-Society/medical_image_computing/blob/master/LICENSE)
 
 Medical Signal Segmentation and Classification
 

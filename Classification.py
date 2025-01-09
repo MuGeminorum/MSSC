@@ -9,9 +9,9 @@ warnings.filterwarnings("ignore")
 def svm():
     # Load data
     try:
-        dataset = load_dataset("MuGemSt/Pima")
+        dataset = load_dataset("Genius-Society/Pima")
     except ConnectionError:
-        dataset = MsDataset.load("MuGemSt/Pima", subset_name="default")
+        dataset = MsDataset.load("Genius-Society/Pima", subset_name="default")
 
     trainset = dataset["train"]
     testset = list(dataset["validation"]) + list(dataset["test"])
