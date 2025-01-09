@@ -1,5 +1,5 @@
 # AlexNet-HEp2-Classification
-[![license](https://img.shields.io/github/license/Genius-Society/Medical-Image-Computing.svg)](https://github.com/Genius-Society/Medical-Image-Computing/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/Genius-Society/medical_image_computing.svg)](https://github.com/Genius-Society/medical_image_computing/blob/master/LICENSE)
 [![hf](https://img.shields.io/badge/HF-HEp2-ffd21e.svg)](https://huggingface.co/spaces/Genius-Society/HEp2)
 [![ms](https://img.shields.io/badge/ModelScope-HEp2-624aff.svg)](https://www.modelscope.cn/studios/Genius-Society/HEp2)
 
@@ -15,8 +15,8 @@ pip install -r requirements.txt
 ## Usage
 ### Maintenance
 ```bash
-git clone -b hep2 git@github.com:Genius-Society/Medical-Image-Computing.git
-cd Medical-Image-Computing
+git clone -b hep2 git@github.com:Genius-Society/medical_image_computing.git
+cd medical_image_computing
 ```
 
 ### Train
