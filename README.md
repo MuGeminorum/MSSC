@@ -1,6 +1,6 @@
 # MIC
-[![license](https://img.shields.io/github/license/Genius-Society/Medical-Image-Computing.svg)](https://github.com/Genius-Society/Medical-Image-Computing/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/Genius-Society/Medical-Image-Computing.svg)](https://github.com/Genius-Society/Medical-Image-Computing/releases/latest)
+[![license](https://img.shields.io/github/license/Genius-Society/medical_image_computing.svg)](https://github.com/Genius-Society/medical_image_computing/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/Genius-Society/medical_image_computing.svg)](https://github.com/Genius-Society/medical_image_computing/releases/latest)
 
 Medical Image Computing Module Development
 
@@ -46,7 +46,7 @@ Medical image computing (MIC) is an interdisciplinary field at the intersection 
 ## Downloads
 3D Slicer download at <https://download.slicer.org>
 
-Sample data download at <https://github.com/Genius-Society/Medical-Image-Computing/releases/tag/nrrd>
+Sample data download at <https://github.com/Genius-Society/medical_image_computing/releases/tag/nrrd>
 
 ## Usage
 ### MIE
