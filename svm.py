@@ -10,24 +10,24 @@ def main():
     # Load training data
     try:
         trainset = load_dataset(
-            "MuGemSt/AAL_statistics_volumn",
+            "Genius-Society/AAL_statistics_volumn",
             data_files="AAL_statistics_volumn_labelled.csv",
             split="train[:-20%]",
         )
 
         testset = load_dataset(
-            "MuGemSt/AAL_statistics_volumn",
+            "Genius-Society/AAL_statistics_volumn",
             data_files="AAL_statistics_volumn_labelled.csv",
             split="train[-20%:]",
         )
 
         unlabelled_data = load_dataset(
-            "MuGemSt/AAL_statistics_volumn",
+            "Genius-Society/AAL_statistics_volumn",
             data_files="AAL_statistics_volumn_unlabelled.csv",
             split="train",
         )
     except ConnectionError:
-        dataset = MsDataset.load("MuGemSt/AAL_statistics_volumn", subset_name="default")
+        dataset = MsDataset.load("Genius-Society/AAL_statistics_volumn", subset_name="default")
         labelled_data = list(dataset["train"])
         unlabelled_data = list(dataset["test"])
         data_len = len(labelled_data)
