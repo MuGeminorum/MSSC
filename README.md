@@ -1,6 +1,5 @@
 # MIC
 [![license](https://img.shields.io/github/license/Genius-Society/medical_image_computing.svg)](https://github.com/Genius-Society/medical_image_computing/blob/main/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/Genius-Society/medical_image_computing.svg)](https://github.com/Genius-Society/medical_image_computing/releases/latest)
 
 Medical Image Computing Module Development
 
